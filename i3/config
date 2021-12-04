@@ -193,7 +193,7 @@ bar {
         status_command i3status 
 	#output HDMI-2
 	separator_symbol " "
-	tray_output None
+	tray_output none
 	colors {
 		focused_workspace  #FFFFFF #FFFFFF #000000
     		active_workspace   #000000 #000000 #FFFFFF
@@ -212,7 +212,10 @@ for_window [class="^.*"] border pixel 0
 exec --no-startup-id picom -b
 exec --no-startup-id dunst
 exec --no-startup-id feh --bg-fill $HOME/Pictures/Wallpapers/975614.jpg
+exec --no-startup-id clipmenud
+exec --no-startup-id discord
 bindsym $mod+Escape exec i3lock-fancy
+bindsym Mod1+Control+v exec "clipmenu -s 1 -nf '#FFFFFF' -nb '#000000' -sb '#FFFFFF' -sf '#000000' -fn 'Hack-9'"
 bindsym --release Shift+Print exec "scregcp -s $HOME/Pictures/Screenshots/"
 bindsym --release Print exec "scregcp $HOME/Pictures/Screenshots/"
 workspace $ws1 output DP-1
