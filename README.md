@@ -1,5 +1,7 @@
 ### My arch linux dotfiles
 
+![](https://github.com/zJairO/dotfiles/blob/main/screenshot/2022-01-07_00-02-10_screenshot.png?raw=true)
+
 Necesary programs:
 - polybar
 - spotify-polybar
