@@ -1,6 +1,6 @@
 ### My arch linux dotfiles
 
-![](https://github.com/zJairO/dotfiles/blob/main/screenshot/2022-01-07_00-02-10_screenshot.png?raw=true)
+![](https://github.com/zJairO/dotfiles/blob/main/screenshot/2022-01-09_17-00-25_screenshot.png?raw=true)
 
 Necesary programs:
 - polybar
