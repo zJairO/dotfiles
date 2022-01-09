@@ -50,7 +50,8 @@ bindsym $mod+Return exec mate-terminal
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+# bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id $HOME/.config/rofi/launchers/text/launcher.sh
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -189,10 +190,12 @@ gaps outer 5
 for_window [class="^.*"] border pixel 3
 exec --no-startup-id polybar bar
 exec --no-startup-id dropbox
-exec --no-startup-id feh --bg-fill $HOME/Pictures/Wallpapers/1182325.jpg
+exec --no-startup-id feh --bg-fill $HOME/Pictures/Wallpapers/1192983.jpg
+exec --no-startup-id xcompmgr
 bindsym --release Shift+Print exec "scregcp -s $HOME/Pictures/Screenshots/"
 bindsym --release Print exec "scregcp $HOME/Pictures/Screenshots/"
 bindsym --release $Mod+Escape exec i3lock-fancy
+bindsym --release $Mod+E exec caja
 set $unfocused_border #24292f
 set $focused_border #ffffff
 client.focused          #ffffff #ffffff #ffffff #ffffff   $focused_border

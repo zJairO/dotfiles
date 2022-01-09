@@ -14,7 +14,7 @@ fixed-center = true
 width = 100%
 height = 30
 
-background = #000000
+background = #1f1f1f
 foreground = #ffffff
 
 radius = 0
@@ -39,9 +39,9 @@ format = <label-state> <label-mode>
 
 label-focused = %index%
 ;label-focused-foreground = #ee896e
-label-focused-background = #000000
-;label-focused-underline = #282828
-label-focused-underline = #4d4d4d
+label-focused-background = #1f1f1f
+;label-focused-underline = #1f1f1f
+label-focused-underline = #747474
 label-focused-padding = 2
 
 label-unfocused = %index%
@@ -52,7 +52,7 @@ label-visible-underline = #ffffff
 label-visible-padding = 2
 
 label-urgent = %index%
-label-urgent-underline = #ffffff
+label-urgent-underline = #e53935
 label-urgent-padding = 2
 
 [module/date]
@@ -97,7 +97,7 @@ type = custom/text
 content = 
 content-padding = 3
 content-foreground = #ffffff
-content-background = #4d4d4d
+content-background = #747474
 
 [module/spotify]
 type = custom/script
